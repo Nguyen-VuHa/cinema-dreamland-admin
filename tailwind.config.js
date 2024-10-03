@@ -20,6 +20,12 @@ module.exports = {
         'success': '#22c55e',
         'white': '#fff',
       },
+      borderWidth: { 
+        '1': '1px',
+      },
+      fontSize: { 
+        'menu': '0.875rem',
+      }
     },
   },
   plugins: [],
