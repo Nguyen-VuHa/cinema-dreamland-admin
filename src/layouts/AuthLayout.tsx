@@ -6,7 +6,7 @@ type Props = {
     children?: React.ReactNode;
 }
 
-const AppLayout: React.FC<Props> = () => {
+const AuthLayout: React.FC<Props> = () => {
     const navigate = useNavigate()
 
     useEffect(() => {
@@ -34,4 +34,4 @@ const AppLayout: React.FC<Props> = () => {
     );
 }
 
-export default AppLayout;
+export default AuthLayout;
