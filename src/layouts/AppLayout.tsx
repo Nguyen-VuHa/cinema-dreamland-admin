@@ -6,6 +6,7 @@ type Props = {
 }
 
 const AppLayout: React.FC<Props> = () => {
+
     return (
         <div>
             <span>App Layout</span>
