@@ -3,7 +3,7 @@ import Menu from './Menu';
 import UserInfo from './UserInfo';
 
 const SideBar = () => {
-    const [isMenuSideBar, setSsMenuSideBar] = useState(false)
+    const [isMenuSideBar, setMenuSideBar] = useState(false)
 
     
     return (

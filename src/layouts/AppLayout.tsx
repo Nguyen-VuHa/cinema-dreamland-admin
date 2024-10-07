@@ -9,11 +9,9 @@ type Props = {
 const AppLayout: React.FC<Props> = () => {
 
     return (
-        <div className="flex w-full min-h-[100vh] h-[auto] bg-layout-primary text-primary h-auto px-5 max-sm:px-3 lg:px-10">
+        <div className="flex w-full min-h-[100vh] h-[auto] bg-layout-primary text-primary h-auto">
             <SideBar />
-            <div className='w-full md:ml-[25%] lg:ml-[25%] xl:ml-[20%] 2xl:ml-[17%] pb-10'>
-                <Outlet />
-            </div>
+            <Outlet />
         </div>
     );
 }

@@ -20,6 +20,9 @@ module.exports = {
         'success': '#22c55e',
         'white': '#fff',
       },
+      height: {
+        'header': '5rem',
+      },
       borderWidth: { 
         '1': '1px',
       },

@@ -1,4 +1,4 @@
-import { FieldInputProps, FormikProps } from 'formik';
+import { FieldInputProps } from 'formik';
 import React from 'react';
 
 type Props = {

@@ -1,10 +1,17 @@
 import React from 'react';
+import DashboardHeader from './Header';
+import BodyLayout from 'src/layouts/BodyLayout';
 
 function DashboardMain() {
     return (
-        <div>
-            Dashboard Main
-        </div>
+        <BodyLayout 
+            header={<DashboardHeader />}
+            body={
+                <div>
+                    
+                </div>
+            }
+        />
     );
 }
 

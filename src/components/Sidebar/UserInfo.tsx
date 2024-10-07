@@ -1,6 +1,4 @@
-import React from 'react';
 import Image from '../Image';
-import Button from '../Button';
 
 const UserInfo = () => {
     return (

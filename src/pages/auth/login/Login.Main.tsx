@@ -1,4 +1,5 @@
 import { Form, Formik } from 'formik';
+import Cookies from 'js-cookie';
 import Button from 'src/components/Button';
 import InputFormik from 'src/components/InputFormik';
 import * as Yup from 'yup';
@@ -24,6 +25,7 @@ const LoginMain = () => {
                 validationSchema={SignupSchema}
                 onSubmit={values => {
                     console.log(values);
+                    Cookies.set("access_token", values.password)
                 }}
             >
                 {({  

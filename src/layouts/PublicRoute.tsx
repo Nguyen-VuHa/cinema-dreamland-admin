@@ -9,7 +9,7 @@ interface PublicRouteProps {
 const PublicRoute: React.FC<PublicRouteProps> = ({ children }) => {
   const isAuthenticated = Cookies.get("access_token");
 
-  return isAuthenticated ? <Navigate to="/dashboard" replace /> : children;
+  return isAuthenticated ? <Navigate to="/" replace /> : children;
 };
 
 export default PublicRoute;
